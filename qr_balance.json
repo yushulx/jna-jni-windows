@@ -1,0 +1,13 @@
+{
+  "Version": "2.0",
+  "ImageParameter": {
+    "Name": "Default_Template",
+    "BarcodeFormatIds": [
+      "QR_CODE"
+    ],
+    "ExpectedBarcodesCount": 512,
+    "DeblurLevel": 5,
+    "AntiDamageLevel": 5,
+    "TextFilterMode": "Disable"
+  }
+}
