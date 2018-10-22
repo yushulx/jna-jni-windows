@@ -2,8 +2,6 @@
 #include <windows.h>
 #include "DynamsoftBarcodeReader.h"
 
-using namespace std;
-
 #ifdef __cplusplus  
 extern "C" {  
 #endif  

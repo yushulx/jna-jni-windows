@@ -3,18 +3,6 @@
 #include "DynamsoftBarcodeReader.h"
 #include "NativeBarcodeReader.h"
 
-using namespace std;
-
-#ifdef __cplusplus  
-extern "C" {  
-#endif  
-
-__declspec( dllexport ) int decodefile();
-  
-#ifdef __cplusplus  
-}  
-#endif  
-
 typedef u_char* address;
 
 address current_stack_base() {
